@@ -19,7 +19,6 @@ public class BookController {
 	
 	@GetMapping
 	public List<Book> getAllBooks() {
-	    // Use the built-in repository method directly
 		return bookService.getAllBooks();
 	}
 	@GetMapping("/search")
